@@ -9,9 +9,9 @@
     "documents": "Docs"
   },
   "intro": {
-    "avatarAlt": "Lain-Ego's avatar",
-    "title": "Hello, I'm Lain",
-    "desc": "Robot development enthusiast, Junior Year Student.<br>Interning at a Humanoid Robot Company.<br>Focus on MCU & Linux development, Motion Control, RL, and Perception.<br>Email: lain-ego@qq.com"
+    "avatarAlt": "Neomelt's avatar",
+    "title": "Hello, I'm Neomelt",
+    "desc": "Robot development enthusiast, Junior Year Student.<br>Interning at a Humanoid Robot Company.<br>Focus on MCU & Linux development, Motion Control, RL, and Perception.<br>Email: neomelt@qq.com"
   },
   "projects": {
     "title": "My Projects",
@@ -172,6 +172,6 @@
     "zhihu": "Zhihu"
   },
   "footer": {
-    "copyright": "© 2023-2025 Lain-Ego | Personal Homepage"
+    "copyright": "© 2023-2025 Neomelt | Personal Homepage"
   }
 }
