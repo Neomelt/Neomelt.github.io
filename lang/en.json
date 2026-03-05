@@ -18,24 +18,24 @@
     "imgAlt": "Project image",
     "viewDetail": "View Details",
     "item1": {
-      "title": "ROBOCON 2025 Quadruped Robot",
-      "desc": "Full-stack R&D for 2025 ROBOCON. Responsible for carbon tube assembly mechanical modeling, force control algorithms, and 3D LiDAR SLAM navigation. Led the team to achieve 30th in Speed, 31st in Obstacle, and 34th in Cross-country among 180+ teams.",
-      "tags": ["Motion Control", "SLAM", "Mechanical Design", "LiDAR"]
+      "title": "RoboMaster Sentry Robot Full-Stack Algorithm R&D",
+      "desc": "As algorithm team lead, I optimized sentry navigation, tracking, and decision pipelines. By tuning ROS2 Nav2 A* and MPPI modules, average planning time dropped by 30% and survivability improved by 20%+ in same-map benchmarks. I also deployed perception neural networks with ONNX and TensorRT for real-time inference acceleration.",
+      "tags": ["ROS2 Nav2", "A*", "MPPI", "EKF", "OpenCV", "ONNX", "TensorRT"]
     },
     "item2": {
-      "title": "Bionic Boston Lobster Submersible",
-      "desc": "Buoyancy-controllable multi-DOF underwater robot. Developed control system (stepper pumps, motor/servo drive, gyro fusion, IIC encoder loop) and vector propulsion model for omnidirectional movement. Handled hardware selection and waterproofing. Won Special Prize in Fujian Intelligent Marine Equipment Competition.",
-      "tags": ["Embedded Systems", "Vector Propulsion", "Hardware Design", "Waterproofing"]
+      "title": "High-Fidelity Robot Simulation System Based on Gazebo Harmonic",
+      "desc": "To solve limited test-field access and high hardware wear, I led a ROS2 Jazzy + Gazebo Harmonic simulation platform. It includes IMU noise modeling, Livox Mid-360 LiDAR simulation, and URDF physics fitting with 90%+ Sim-to-Real logic coverage.",
+      "tags": ["ROS2 Jazzy", "Gazebo Harmonic", "URDF", "Sim-to-Real", "LiDAR"]
     },
     "item3": {
-      "title": "Intelligent Agriculture Robot",
-      "desc": "Smart planting & harvesting robot based on FreeRTOS. Controlled DJI3508 motors for gripper lifting and omni-directional chassis with ±5mm positioning accuracy. Participated in pneumatic design and hardware wiring, supporting dual-robot synergy.",
-      "tags": ["FreeRTOS", "Motor Control", "Multi-robot Synergy"]
+      "title": "PulseScope Cross-Platform Robot Debugging GUI",
+      "desc": "I independently developed a Rust/C++/Go/TypeScript debugging workstation with low-latency UDP/TCP transport and real-time visualization. After multi-process, memory-pool, and zero-copy optimization, memory usage dropped by 62% and end-to-end latency stabilized at <=28ms.",
+      "tags": ["Rust", "C++", "Go", "TypeScript", "UDP/TCP"]
     }
   },
   "project1": {
-    "title": "ROBOCON 2025 Quadruped Robot Challenge",
-    "desc": "ROBOCON is a top-tier robotics competition that places high demands on mechanical reliability, electronic control stability, and visual accuracy.<br><br>In the 2025 season, I was responsible for the full-stack R&D of the quadruped robot team, covering mechanical modeling, motion control, and autonomous navigation. Utilizing a carbon tube assembly mechanism similar to plant protection drones, force control algorithms, and 3D LiDAR mapping & navigation technology, our team achieved 30th place in the Speed Race, 31st in the Obstacle Race, and 34th in the Cross-Country Race at the 2025 ROBOCON (Jiangyin) among over 180 participating teams, winning Second Prize nationally in all three categories.",
+    "title": "RoboMaster Sentry Robot Full-Stack Algorithm R&D",
+    "desc": "Since Sep 2024, I have led full-stack algorithm R&D for our RoboMaster sentry robot as algorithm lead. Our team won Third Prize at the RoboMaster 2025 Super Confrontation National Finals.<br><br>On navigation, I tuned ROS2 Nav2 Costmap Layer and A* parameters, reducing average global planning time per frame by 30%. On control, I optimized official Nav2 MPPI weights and constraints; in same-map benchmarks, tracking error P95 stayed within 5cm and survivability improved by 20%+.<br><br>I also built an EKF + OpenCV ROI dynamic prediction vision pipeline, achieving an 80%+ hit rate against targets spinning at 8rad/s. In addition, I delivered an inference deployment pipeline from trained checkpoints to ONNX export and TensorRT engine deployment for real-time battlefield perception.<br><br>In parallel, I led GitHub CI/CD and a unified Docker dev image, reducing new-member environment setup time to 30 minutes.",
     "links": {
       "github": "Code",
       "techDoc": "Docs",
@@ -43,12 +43,12 @@
     }
   },
   "project2": {
-    "title": "Bionic Boston Lobster Submersible",
-    "desc": "This project features a buoyancy-controllable multi-DOF lobster underwater robot.<br><br>On the software side, I was responsible for the control system development, designing a lower-level machine framework that integrates stepper peristaltic pumps, motor/servo drives, gyroscope data processing, and IIC encoder feedback for closed-loop control of 360-degree servos. I also designed a vector propulsion model for the irregular multi-rotor structure to achieve omnidirectional movement. On the hardware side, I handled driver selection, step-down circuit design, and waterproofing.<br><br>The project won the Special Prize in the Underwater Robot Track at the 2024 Fujian University Student Intelligent Marine Equipment Design Competition. It also represented Fujian University of Technology at the 2024 World Maritime Equipment Conference, receiving coverage from media outlets such as Xinhua News Agency and Guangming Daily."
+    "title": "High-Fidelity Robot Simulation System Based on Gazebo Harmonic",
+    "desc": "From Jul 2025 to Sep 2025, I led this project to address limited physical testing space, high hardware wear, and poor reproducibility of extreme combat scenarios.<br><br>Built on ROS2 Jazzy and Gazebo Harmonic, the system includes IMU Gaussian noise modeling, Livox Mid-360 LiDAR point-cloud simulation, plus URDF inertia calibration and joint friction/collision parameter fitting.<br><br>The final platform achieved 90%+ Sim-to-Real logic verification coverage, significantly improving algorithm iteration speed and transfer efficiency from simulation to real robots."
   },
   "project3": {
-    "title": "Intelligent Planting and Harvesting Robot",
-    "desc": "Based on the FreeRTOS real-time operating system, I developed the control system for an integrated intelligent planting and harvesting agricultural robot.<br><br>By controlling DJI3508 motors, I completed the functional debugging of the gripper lifting mechanism, omnidirectional chassis, and omnidirectional positioning system, achieving a gripper positioning accuracy within ±5mm. I also participated in the pneumatic system design and hardware wiring, supporting collaborative operation with another autonomous robot to efficiently complete tasks."
+    "title": "PulseScope Cross-Platform Robot Debugging GUI",
+    "desc": "Since Oct 2025, I have been independently developing PulseScope, a cross-platform RoboMaster debugging workstation. The core is written in Rust, with a C++ communication module, a Go backend service, and a TypeScript frontend.<br><br>The system delivers low-latency end-to-end transport over UDP/TCP. I refactored the original single-thread architecture into multi-process isolation and applied memory-pool plus zero-copy optimization, reducing memory usage by 62% and keeping end-to-end latency stable at <=28ms.<br><br>PulseScope now supports real-time visualization for target states, filtering outputs, and control signals, plus hot parameter updates and one-click debug log export. It has been stably used in team field debugging and on-site emergency support."
   },
   "projects1": {
     "imgAlt1": "Project Detail View",
@@ -60,51 +60,31 @@
     "title": "Open Source Contributions",
     "btnCode": "Code",
     "btnDoc": "Docs",
-  "item1": {
-    "title": "BRS Parallel Quadruped Robot",
-    "desc": "Project 'BLACK☆ROCK SHOOTER': A full-stack parallel structure quadruped robot. The complete solution is open-source and competed in the 2025 ROBOCON National Competition.",
-    "tags": ["Robotics", "Mechanical Design", "Open Source"]
-  },
-  "item2": {
-    "title": "SliverWolf Desktop Quadruped",
-    "desc": "A direct-drive, position-controlled serial quadruped using 9g micro servos. Features IMU integration, voice control, various gaits, and collaborative fetching with a robotic arm.",
-    "tags": ["STM32", "Voice Control", "IMU", "Robotic Arm"]
-  },
-  "item3": {
-    "title": "Quadruped Robot Lark Knowledge Base",
-    "desc": "A comprehensive post-competition R&D knowledge base, covering the full workflow from basic concepts to practical development and reinforcement learning applications.",
-    "tags": ["Documentation", "Knowledge Sharing"]
-  },
-  "item4": {
-    "title": "ROBOCON 2024 R1 Robot",
-    "desc": "Low-level control repository for the ROBOCON 2024 R1 robot, including mechanical schemes, omnidirectional chassis kinematics, and task mechanism logic.",
-    "tags": ["Robocon", "STM32", "C", "Chassis Control"]
-  },
-  "item5": {
-    "title": "3508 Legged Robot Drive Platform",
-    "desc": "A quadruped robot drive solution based on DJI 3508 brushless geared motors, used in multiple ROBOCON National Competitions from 2022 to 2025.",
-    "tags": ["Motor Control", "DJI", "Legged Robot"]
-  },
-  "item6": {
-    "title": "HTDW4438 Isaac Gym",
-    "desc": "Isaac Gym reinforcement learning simulation environment for the HTDW4438 quadruped robot, with completed sim-to-sim migration.",
-    "tags": ["RL", "Isaac Gym", "RSL_RL", "Sim2Real", "Legged_gym"]
-  },
-  "item7": {
-    "title": "HTDW4438 OpenDog Deployment",
-    "desc": "Physical control and deployment code for the HTDW4438 robot, including mechanical design, control algorithm implementation, and system integration testing.",
-    "tags": ["Robotics", "Mechanical Design", "C++", "Robotics Hardware"]
-  },
-  "item8": {
-    "title": "Lain's Note Personal Knowledge Base",
-    "desc": "Personal technical documentation and blog repository, recording notes and technical insights accumulated during robotics R&D and algorithm studies.",
-    "tags": ["Blog", "Documentation", "Study Notes"]
-  },
-  "item9": {
-    "title": "PDF2PNG Converter Tool",
-    "desc": "Implemented via Vibecoding, a tool for batch converting PDF documents into high-quality PNG images.",
-    "tags": ["Utility", "Tool"]
-  }
+    "item1": {
+      "title": "RGM (Rust GPU Monitor)",
+      "desc": "A real-time GPU monitoring tool for Linux, written in Rust. It currently supports NVIDIA and AMD GPUs, with planned Intel support.",
+      "tags": ["Rust", "Linux", "GPU Monitoring", "NVIDIA", "AMD"]
+    },
+    "item2": {
+      "title": "rm_sim_26 High-Fidelity Robot Simulation",
+      "desc": "A RoboMaster simulation project based on ROS2 Jazzy and Gazebo Harmonic, covering sensor noise modeling, URDF physics fitting, and Sim-to-Real validation.",
+      "tags": ["ROS2", "Gazebo Harmonic", "Simulation", "URDF", "Sim-to-Real"]
+    },
+    "item3": {
+      "title": "robomaster-monitor",
+      "desc": "A lightweight automation tool that tracks newly posted open-source projects on the RoboMaster forum and pushes real-time alerts to Lark.",
+      "tags": ["Python", "Web Crawler", "Automation", "Lark", "RoboMaster"]
+    },
+    "item4": {
+      "title": "PulseScope Cross-Platform Debugging GUI",
+      "desc": "An in-progress cross-platform robot debugging tool built with a Rust/C++/Go/TypeScript stack, focused on low-latency transport and real-time visualization.",
+      "tags": ["Rust", "C++", "Go", "TypeScript", "Visualization"]
+    },
+    "item5": {
+      "title": "RMCV_Tutorial (In Progress)",
+      "desc": "A RoboMaster computer-vision tutorial and knowledge-base project covering perception algorithms, engineering practice, and tuning experience.",
+      "tags": ["Computer Vision", "Tutorial", "Documentation", "RoboMaster"]
+    }
 
 
 
@@ -112,49 +92,24 @@
   "timeline": {
     "title": "Timeline",
     "event1": {
-    "date": "2024-05",
-    "title": "Open Source SliverWolf Desktop Quadruped",
-    "desc": "Released SliverWolf, a desktop-level serial quadruped robot featuring voice control and robotic arm collaborative capabilities."
+    "date": "2025-03",
+    "title": "RoboMaster League Tournament",
+    "desc": "Competed in the 2025 RoboMaster League Tournament, focusing on sentry navigation and auto-aim pipeline tuning under real-match conditions."
     },
     "event2": {
-      "date": "2024-07",
-      "title": "2024 ROBOCON National Competition",
-      "desc": "Developed the embedded control system for the R1 robot based on FreeRTOS, achieving ±5mm positioning accuracy, ball launching, and gripper functionalities."
+      "date": "2025-05",
+      "title": "RoboMaster Regional Tournament",
+      "desc": "Joined the 2025 RoboMaster Regional Tournament and continuously improved sentry decision, navigation, and tracking stability, while integrating ONNX/TensorRT perception deployment in field tests."
     },
     "event3": {
-      "date": "2024-08",
-      "title": "2024 Fujian Undergraduate Electronics Design Contest",
-      "desc": "Developed an autonomous driving car system based on the MSPM0G3507, qualifying for the provincial testing stage."
+      "date": "2025-08",
+      "title": "High-Fidelity Simulation Project",
+      "desc": "Led a ROS2 Jazzy + Gazebo Harmonic simulation project, including sensor noise modeling and a complete Sim-to-Real validation loop."
     },
     "event4": {
-      "date": "2024-11",
-      "title": "Fujian Intelligent Marine Equipment Design Competition",
-      "desc": "Led the development of the control system for a buoyancy-controlled multi-DOF lobster underwater robot, winning the Grand Prize."
-    },
-    "event5": {
-      "date": "2024-12",
-      "title": "2024 World Marine Equipment Conference",
-      "desc": "Represented Fujian University of Technology as an exhibitor, showcasing the bionic Boston Lobster robot; covered by media outlets including Xinhua News Agency."
-    },
-    "event6": {
-      "date": "2025-07",
-      "title": "2025 ROBOCON National Competition",
-      "desc": "Responsible for full-stack R&D of the legged robot. Ranked 30th nationally in the Sprint Race, 31st in the Obstacle Race, and 34th in the Cross-Country Race, securing three National Second Prizes."
-    },
-    "event7": {
-      "date": "2025-08",
-      "title": "2025 National Undergraduate Electronics Design Contest",
-      "desc": "Responsible for the hardware design and fabrication of the power meter for an automatic ranging system, winning the National Second Prize."
-    },
-    "event8": {
-      "date": "2025-09",
-      "title": "Open Source BRS Parallel Quadruped Robot",
-      "desc": "Open-sourced the mechanical structure and control code of the BRS parallel quadruped robot on GitHub."
-    },
-    "event9": {
-      "date": "2025-10 to 2026-03",
-      "title": "Internship at Gaoqing Electromechanical",
-      "desc": "Responsible for mechanical design, control algorithm development, and system integration testing for the HTDW4438 bionic quadruped robot (both open-source and commercial versions)."
+      "date": "2025-11",
+      "title": "PulseScope Project Kickoff",
+      "desc": "Started independently developing PulseScope, a cross-platform robot debugging GUI using a Rust/C++/Go/TypeScript hybrid architecture."
     }
   },
   "skills": {
@@ -172,6 +127,6 @@
     "zhihu": "Zhihu"
   },
   "footer": {
-    "copyright": "© 2023-2025 Neomelt | Personal Homepage"
+    "copyright": "© 2026 Neomelt | Personal Homepage"
   }
 }

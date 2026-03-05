@@ -116,15 +116,11 @@ function initOpenSource() {
   grid.innerHTML = ''; // 【关键】清空
 
   const items = [
-    { key: "opensource.item1", linkCode: "https://github.com/Lain-Ego0/BRS-Parallel-Robot", linkDoc: null },
-    { key: "opensource.item2", linkCode: "https://github.com/Lain-Ego0/SliverWolf-ArmRobotDog", linkDoc: null },
-    { key: "opensource.item3", linkCode: null, linkDoc: "https://wcn9j5638vrr.feishu.cn/wiki/space/7570988375279517715" },
-    { key: "opensource.item4", linkCode: "https://github.com/Lain-Ego0/ROBOCON2024-R1", linkDoc: null },
-    { key: "opensource.item5", linkCode: "https://github.com/Lain-Ego0/ROBOCON2024-3508DOG", linkDoc: null },
-    { key: "opensource.item6", linkCode: "https://github.com/Lain-Ego0/HTDW4438_Isaacgym", linkDoc: null },
-    { key: "opensource.item7", linkCode: "https://github.com/Lain-Ego0/HTDW4438-OpenDog", linkDoc: null },
-    { key: "opensource.item8", linkCode: "https://github.com/Lain-Ego0/Lain-s-Note", linkDoc: null },
-    { key: "opensource.item9", linkCode: "https://github.com/Lain-Ego0/Lain-s-PDF2PNG", linkDoc: null }
+    { key: "opensource.item1", linkCode: "https://github.com/Neomelt/RGM", linkDoc: null },
+    { key: "opensource.item2", linkCode: "https://github.com/Neomelt/rm_sim_26", linkDoc: null },
+    { key: "opensource.item3", linkCode: "https://github.com/Aurora-UJS/robomaster-monitor", linkDoc: null },
+    { key: "opensource.item4", linkCode: "https://github.com/Aurora-UJS/PulseScope", linkDoc: null },
+    { key: "opensource.item5", linkCode: "https://github.com/Aurora-UJS/RMCV_Tutorial", linkDoc: null }
   ];
 
   items.forEach(item => {
@@ -157,9 +153,10 @@ function initTimeline() {
   container.innerHTML = ''; // 【关键】清空
 
   const events = [
-    "timeline.event9", "timeline.event8", "timeline.event7", 
-    "timeline.event6", "timeline.event5", "timeline.event4", 
-    "timeline.event3", "timeline.event2", "timeline.event1"
+    "timeline.event4",
+    "timeline.event3",
+    "timeline.event2",
+    "timeline.event1"
   ];
 
   events.forEach(key => {
@@ -199,7 +196,9 @@ function initTechStack() {
         { name: "ROS/ROS2", icon: "fas fa-robot" },
         { name: "Gazebo", icon: "fas fa-cube" },
         { name: "Motion Control", icon: "fas fa-wave-square" },
-        { name: "RL", icon: "fas fa-brain" }
+        { name: "RL", icon: "fas fa-brain" },
+        { name: "ONNX Runtime", icon: "fas fa-network-wired" },
+        { name: "TensorRT", icon: "fas fa-bolt" }
       ]
     },
     {
@@ -240,7 +239,7 @@ function initContactLinks() {
   
   const contacts = [
     { icon: "fab fa-bilibili", key: "contact.bilibili", link: "https://space.bilibili.com/385516781/upload/video" },
-    { icon: "fab fa-github", key: "contact.github", link: "https://github.com/Lain-Ego0" },
+    { icon: "fab fa-github", key: "contact.github", link: "https://github.com/Neomelt" },
     { icon: "fab fa-twitter", key: "contact.twitter", link: "https://x.com/Lain_Ego0" },
     { icon: "fab fa-zhihu", key: "contact.zhihu", link: "https://www.zhihu.com/people/hua-99-50-21" }
   ];
