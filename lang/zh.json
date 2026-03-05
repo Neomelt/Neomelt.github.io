@@ -71,7 +71,7 @@
       "tags": ["ROS2", "Gazebo Harmonic", "Simulation", "URDF", "Sim-to-Real"]
     },
     "item3": {
-      "title": "robomaster-monitor 机器人大师监视器",
+      "title": "robomaster-monitor 爬虫项目",
       "desc": "轻量级自动化监控工具，追踪 RoboMaster 论坛新发布开源项目，并通过飞书（Lark）发送实时通知，帮助参赛者及时获取社区技术更新。",
       "tags": ["Python", "Web Crawler", "Automation", "Lark", "RoboMaster"]
     },

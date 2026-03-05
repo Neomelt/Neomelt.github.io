@@ -182,12 +182,13 @@ function initTechStack() {
 
   const stack = [
     {
-      category: "skills.embedded",
+      category: "skills.languages",
       items: [
-        { name: "STM32", icon: "fas fa-microchip" },
-        { name: "ESP32", icon: "fas fa-wifi" },
-        { name: "FreeRTOS", icon: "fas fa-cogs" },
-        { name: "C/C++", icon: "fas fa-code" }
+        { name: "C/C++", icon: "fas fa-code" },
+        { name: "Rust", icon: "fas fa-microchip" },
+        { name: "Golang", icon: "fas fa-wifi" },
+        { name: "Python", icon: "fab fa-python" },
+        { name: "TypeScript", icon: "fab fa-js" }
       ]
     },
     {
@@ -196,17 +197,8 @@ function initTechStack() {
         { name: "ROS/ROS2", icon: "fas fa-robot" },
         { name: "Gazebo", icon: "fas fa-cube" },
         { name: "Motion Control", icon: "fas fa-wave-square" },
-        { name: "RL", icon: "fas fa-brain" },
         { name: "ONNX Runtime", icon: "fas fa-network-wired" },
         { name: "TensorRT", icon: "fas fa-bolt" }
-      ]
-    },
-    {
-      category: "skills.hardware",
-      items: [
-        { name: "Altium", icon: "fas fa-pencil-ruler" },
-        { name: "SolidWorks", icon: "fas fa-drafting-compass" },
-        { name: "PCB", icon: "fas fa-layer-group" }
       ]
     },
     {
@@ -214,7 +206,10 @@ function initTechStack() {
       items: [
         { name: "Linux", icon: "fab fa-linux" },
         { name: "Python", icon: "fab fa-python" },
-        { name: "Git", icon: "fab fa-git-alt" }
+        { name: "Git", icon: "fab fa-git-alt" },
+        { name: "Docker", icon: "fab fa-docker" },
+        { name: "CI/CD", icon: "fas fa-cogs" },
+        { name: "Vim/VSCode", icon: "fas fa-edit" }
       ]
     }
   ];
@@ -238,10 +233,10 @@ function initContactLinks() {
   container.innerHTML = '';
   
   const contacts = [
-    { icon: "fab fa-bilibili", key: "contact.bilibili", link: "https://space.bilibili.com/385516781/upload/video" },
+    { icon: "fab fa-bilibili", key: "contact.bilibili", link: "https://space.bilibili.com/1025251137" },
     { icon: "fab fa-github", key: "contact.github", link: "https://github.com/Neomelt" },
-    { icon: "fab fa-twitter", key: "contact.twitter", link: "https://x.com/Lain_Ego0" },
-    { icon: "fab fa-zhihu", key: "contact.zhihu", link: "https://www.zhihu.com/people/hua-99-50-21" }
+    { icon: "fab fa-reddit", key: "contact.reddit", link: "https://www.reddit.com/user/IllustriousPick6446/" },
+    { icon: "fab fa-zhihu", key: "contact.zhihu", link: "https://www.zhihu.com/people/yu-jiang-zi-huan-xi-17" }
   ];
   
   contacts.forEach(c => {
