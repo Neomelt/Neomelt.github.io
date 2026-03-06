@@ -66,20 +66,6 @@ function initProjects() {
       descKey: "projects.item1.desc",
       tagsKey: "projects.item1.tags", // Added tags key
       link: "pages/projects/project1.html"
-    },
-    { 
-      img: "assets/images/Portfolio-02.png", 
-      titleKey: "projects.item2.title", 
-      descKey: "projects.item2.desc", 
-      tagsKey: "projects.item2.tags", // Added tags key
-      link: "pages/projects/project2.html"
-    },
-    { 
-      img: "assets/images/Portfolio-03.png", 
-      titleKey: "projects.item3.title", 
-      descKey: "projects.item3.desc", 
-      tagsKey: "projects.item3.tags", // Added tags key
-      link: "pages/projects/project3.html"
     }
   ];
 
@@ -116,10 +102,10 @@ function initOpenSource() {
   grid.innerHTML = ''; // 【关键】清空
 
   const items = [
-    { key: "opensource.item1", linkCode: "https://github.com/Neomelt/RGM", linkDoc: null },
     { key: "opensource.item2", linkCode: "https://github.com/Neomelt/rm_sim_26", linkDoc: null },
-    { key: "opensource.item3", linkCode: "https://github.com/Aurora-UJS/robomaster-monitor", linkDoc: null },
     { key: "opensource.item4", linkCode: "https://github.com/Aurora-UJS/PulseScope", linkDoc: null },
+    { key: "opensource.item1", linkCode: "https://github.com/Neomelt/RGM", linkDoc: null },
+    { key: "opensource.item3", linkCode: "https://github.com/Aurora-UJS/robomaster-monitor", linkDoc: null },
     { key: "opensource.item5", linkCode: "https://github.com/Aurora-UJS/RMCV_Tutorial", linkDoc: null }
   ];
 
